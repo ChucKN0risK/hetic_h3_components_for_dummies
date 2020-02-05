@@ -13,15 +13,10 @@
 export default class AcButton extends HTMLElement {
   constructor() {
     // Always call super first in constructor
+    // so that we can access and call function
+    // of the parent HTMLElement object
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
     super();
-    // The mode 'open' allow the custom element
-    // shadow dom to be inspectable in JS and in CSS.
-    // Don't worry, CSS custom properties are still
-    // accessible through shadow DOM
-    // const root = this.attachShadow({ mode: 'open' });
-    // root.innerHTML = `
-      
-    // `;
   }
 
   get look() {
@@ -48,24 +43,12 @@ export default class AcButton extends HTMLElement {
     return this.setAttribute('size', val);
   }
 
-  get icon() {
-    return this.getAttribute('icon');
-  }
-
   get isLoading() {
     return this.getAttribute('is-loading');
   }
 
   set isLoading(val) {
     return this.setAttribute(val ? true : false);
-  }
-
-  get tag() {
-    return this.getAttribute('tag');
-  }
-
-  set tag(val) {
-    return this.setAttribute('tag', val);
   }
 
   static get observedAttributes() {
