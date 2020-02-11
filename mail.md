@@ -20,6 +20,7 @@ Comme convenu voici les différents supports des cours que nous avons passé ens
 - Article sur une vision “API” de design systems : [https://matthewstrom.com/writing/design-apis](https://matthewstrom.com/writing/design-apis)
 - Site qui regroupe plein de conseils pour mettre en place du CSS : [https://every-layout.dev/](https://every-layout.dev/)
 - Site qui regroupe les différentes choses auxquelles penser lorsque vous créez des composants de base : [https://designsystemchecklist.com](https://designsystemchecklist.com)
+- Article sur comment gérer la typographie dans votre code : [https://superfriendlydesign.systems/articles/typography-in-design-systems/](https://superfriendlydesign.systems/articles/typography-in-design-systems/)
 
 Voici les comptes twitter de personnes à suivre si vous êtes intéressé par le développement front-end :
 - [https://twitter.com/adactio](https://twitter.com/adactio)
